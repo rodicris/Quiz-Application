@@ -1,0 +1,228 @@
+body {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #0f172a, #1e3a8a, #0f172a);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+  color: #f9fafb;
+}
+
+.time-result {
+  max-width: 600px;
+  padding: 12px 20px;
+  margin: auto;
+  border: 3px solid #6366f1;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.05);
+}
+
+#quiz-container {
+  max-width: 600px;
+  padding: 20px;
+  margin: 30px auto;
+  border: 3px solid #9ca3af;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.05);
+}
+
+.question {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.option {
+  font-weight: 600;
+  padding: 10px 16px;
+  border: 2px solid #6366f1;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  background: #1e293b;
+  color: #f9fafb;
+}
+
+.option:hover {
+  background: #2563eb;
+  transform: scale(1.05);
+}
+
+.option.correct {
+  background: #10b981 !important; /* green */
+  color: #fff;
+}
+
+.option.incorrect {
+  background: #ef4444 !important; /* red */
+  color: #fff;
+}
+
+#next-btn, #restart-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: 600;
+  background: #6366f1;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.1s;
+}
+
+#next-btn:hover, #restart-btn:hover {
+  background: #4f46e5;
+}
+
+#next-btn:active, #restart-btn:active {
+  transform: scale(0.95);
+}
+
+#result {
+  margin-top: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  color: gold;
+}
+
+#timer {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  background: linear-gradient(to right, #2563eb, #ef4444);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.feedback {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 12px 20px;
+  border: 3px solid #f9fafb;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.05);
+}
+
+#feedback-container {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.start-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #0f172a, #1e3a8a, #0f172a);
+  color: #f9fafb;
+}
+
+.app-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.btn.primary {
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  background: #6366f1;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.1s;
+}
+
+.btn.primary:hover {
+  background: #4f46e5;
+}
+
+.btn.primary:active {
+  transform: scale(0.95);
+}
+
+.history {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 12px 20px;
+  border: 3px solid #6366f1;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.05);
+  color: #f9fafb;
+}
+
+.history h2 {
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+#history-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#history-list li {
+  margin: 6px 0;
+  padding: 8px;
+  background: rgba(255,255,255,0.1);
+  border-radius: 6px;
+}
+
+#history-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: 600;
+  background: #6366f1;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.1s;
+}
+
+#history-btn:hover {
+  background: #4f46e5;
+}
+
+#history-btn:active {
+  transform: scale(0.95);
+}
+
+.history {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 12px 20px;
+  border: 3px solid #6366f1;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.05);
+  color: #f9fafb;
+}
+
+.history h2 {
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+#history-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#history-list li {
+  margin: 6px 0;
+  padding: 8px;
+  background: rgba(255,255,255,0.1);
+  border-radius: 6px;
+}
